@@ -8,4 +8,10 @@ cask "med-schedule-tracker" do
   homepage "https://github.com/Jimmy110101013/med-schedule-backend"
 
   app "Med Schedule Tracker.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Med Schedule Tracker.app"],
+                   sudo: false
+  end
 end
