@@ -1,8 +1,8 @@
 cask "med-schedule-tracker" do
-  version "0.3.0"
-  sha256 "626ad624832678f10505199faf73be0753ef3aba3fc20557907518746a23b2a0"
+  version "0.3.1"
+  sha256 "ab2176c72c0a6b6778acc29df8c5d0e6bcc63f9caebb35eb363e7594bbea072f"
 
-  url "https://github.com/Jimmy110101013/med-schedule-backend/releases/download/v0.3.0/Med.Schedule.Tracker_0.2.5_aarch64.dmg"
+  url "https://github.com/Jimmy110101013/med-schedule-backend/releases/download/v0.3.1/Med.Schedule.Tracker_0.3.1_aarch64.dmg"
   name "Med Schedule Tracker"
   desc "NYCU Med10 clinical course tracking dashboard"
   homepage "https://github.com/Jimmy110101013/med-schedule-backend"
